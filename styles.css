@@ -1,3 +1,44 @@
 body {
-	background-color: blue;
+	background-color: #ffebcd;
+	background-image: url('http://images.freeimages.com/images/premium/previews/6042/60425172-beer-background-ice-cold-pint-with-water-drops-condensation.jpg');
+	background-blend-mode: overlay; 
+	font-size: 20px;
+}
+
+h1 {
+	padding: 10px 0;
+	border-width: 5px;
+	border-style: ridge;
+	border-color: gold;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.images {
+	height: 400px;
+	width: 400px;
+	margin: 50px 0;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: helvetica;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.lists {
+	font-weight: bold;
+	font-family: Comic sans MS;
+}
+
+p {
+	font-family: arial;
+}
+
+a:visited {
+	color: purple;
+}
+a:hover {
+	color: red;
 }
