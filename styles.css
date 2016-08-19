@@ -3,6 +3,7 @@ body {
 	background-image: url('http://images.freeimages.com/images/premium/previews/6042/60425172-beer-background-ice-cold-pint-with-water-drops-condensation.jpg');
 	background-blend-mode: overlay; 
 	font-size: 20px;
+	margin-left: 30px;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 
 .images {
 	height: 400px;
-	width: 400px;
+	width: 500px;
 	margin: 50px 0;
 }
 
