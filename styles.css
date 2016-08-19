@@ -21,6 +21,12 @@ h1 {
 	margin: 50px 0;
 }
 
+#image1 {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
 h3 {
 	font-size: 25px;
 	font-family: helvetica;
@@ -42,4 +48,10 @@ a:visited {
 }
 a:hover {
 	color: red;
+}
+
+@media screen and (max-width: 450px) {
+	img {
+		background-image: url('http://www.pottergategolfclub.co.uk/media/SMALL%20BEER.jpg');
+	}
 }
